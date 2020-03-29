@@ -15,7 +15,7 @@ class Application(Frame):
 
     def create_widgets(self):
         """Creates controls with which the user will enter the source data"""
-        # метка с текстом инструкцией
+        # label with text instruction
         Label(self, text = "  "
               ).grid(row = 0, column = 0, columnspan = 1, sticky = W)
 
